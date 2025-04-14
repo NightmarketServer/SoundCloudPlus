@@ -29,14 +29,3 @@ Kho này cung cấp file cấu hình để **mở khóa SoundCloud Go+** dành c
 
 ---
 
-## 🧾 Nội dung file `soundcloud.module`
-
-```ini
-#!name=SoundCloudGo+
-#!desc=SoundCloudGo+
-[Script]
-SoundCloudGo+=type=http-response,pattern=https://api-mobile.soundcloud.com/configuration/ios,requires-body=1,script-path=https://raw.githubusercontent.com/yourusername/SoundCloudPlus/main/SoundCloudGo+.js
-
-[MITM]
-hostname= %APPEND% api-mobile.soundcloud.com
-
