@@ -39,3 +39,8 @@ SoundCloudGo+=type=http-response,pattern=https://api-mobile.soundcloud.com/confi
 
 [MITM]
 hostname= %APPEND% api-mobile.soundcloud.com
+
+> 💡 **Important**  
+> Since the GitHub API only allows 5k requests...  
+> `https://github-readme-stats.vercel.app/api`  
+> You can prevent this from happening by...
