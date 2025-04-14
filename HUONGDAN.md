@@ -6,37 +6,32 @@
 Không được sử dụng nội dung trong kho lưu trữ này vào mục đích vi phạm pháp luật!  
 Nếu muốn chia sẻ, vui lòng ghi rõ tác giả hoặc nguồn gốc.
 
-# 📦 Giới thiệu - SoundCloudPlus
+## 🔧 Hướng dẫn sử dụng Module trong Shadowrocket
 
-Kho này cung cấp file cấu hình để **mở khóa SoundCloud Go+** dành cho ứng dụng **Shadowrocket** trên iOS.
+### 📌 Module là gì?
 
----
-
-## 📌 Thông tin chi tiết
-
-- Hỗ trợ: Shadowrocket 
-- Chức năng: Mở khóa tính năng SoundCloud Go+ thông qua script và MITM
-- Gồm: file cấu hình, script, hostname và hướng dẫn cài đặt
-
----
- 
-## 2️⃣ Hướng dẫn sử dụng
-
-1. Tải file `.module`
-2. Mở Shadowrocket, chọn **Modules → Import**
-3. Thêm hostname vào mục **MITM**
-4. Bật **Script** và dán link script
+Module trong Shadowrocket là các tập lệnh giúp:
+- ✅ Chặn quảng cáo
+- ✅ Tự động chọn proxy
+- ✅ Bỏ giới hạn ứng dụng
+- ✅ Tự động chuyển IP theo domain
 
 ---
 
-## 🧾 Nội dung file `soundcloud.module`
+### ✅ Cách thêm và bật Module
 
-```ini
-#!name=SoundCloudGo+
-#!desc=SoundCloudGo+
-[Script]
-SoundCloudGo+=type=http-response,pattern=https://api-mobile.soundcloud.com/configuration/ios,requires-body=1,script-path=https://raw.githubusercontent.com/yourusername/SoundCloudPlus/main/SoundCloudGo+.js
+#### 🧩 Bước 1: Mở ứng dụng Shadowrocket
 
-[MITM]
-hostname= %APPEND% api-mobile.soundcloud.com
+Mở Shadowrocket trên iOS, đảm bảo bạn đã cấp quyền VPN.
 
+#### 🧩 Bước 2: Vào mục `Modules`
+
+Chọn tab `Modules` ở thanh dưới cùng của app.
+
+#### 🧩 Bước 3: Thêm module mới
+
+1. Nhấn vào nút `+` ở góc phải trên
+2. Dán link module bạn muốn thêm. Ví dụ:
+
+   ```text
+   https://raw.githubusercontent.com/chỉnh-link/module-name/main/module.sgmodule
