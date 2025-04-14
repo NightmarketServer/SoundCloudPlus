@@ -1,41 +1,35 @@
-# SoundCloudPlus
 <p align="center">
-  <img src="https://link-ảnh-banner-của-bạn.com/banner.jpg" alt="Banner" width="100%">
+  <img src="https://github.com/bongsusu/banner/blob/main/Purple%20and%20Black%20Modern%20Game%20Streamer%20Twitch%20Banner.jpg" alt="Banner" width="100%">
 </p>
 
-> ⚠️ **Caution**  
-禁止使用本仓库任何内容侵犯法律权益！  
-如需转载请 标明作者 或 注明来源
+> ⚠️ **Cảnh báo**  
+Không được sử dụng nội dung trong kho lưu trữ này vào mục đích vi phạm pháp luật!  
+Nếu muốn chia sẻ, vui lòng ghi rõ tác giả hoặc nguồn gốc.
 
-# SoundCloudPlus 简介
+# 📦 Giới thiệu - SoundCloudPlus
 
-> 提供适用于 Shadowrocket 的 SoundCloud 解锁模块。
-
----
-
-## 📌 说明
-
-本仓库主要提供 `SoundCloud` 解锁模块配置文件，使用 Shadowrocket 搭配解锁 `SoundCloud Go+` 功能。  
-模块支持配置文件、MITM、脚本等内容。
+Kho này cung cấp file cấu hình để **mở khóa SoundCloud Go+** dành cho ứng dụng **Shadowrocket** trên iOS.
 
 ---
 
-## 📁 项目目录
+## 📌 Thông tin chi tiết
 
-### 01️⃣ SoundCloud 解锁模块
+- Hỗ trợ: Shadowrocket 
+- Chức năng: Mở khóa tính năng SoundCloud Go+ thông qua script và MITM
+- Gồm: file cấu hình, script, hostname và hướng dẫn cài đặt
 
-- 模块文件: [`soundcloud.module`](./soundcloud.module)
-- 解锁规则: `api-mobile.soundcloud.com`
+---
+ 
+## 2️⃣ Hướng dẫn sử dụng
 
-### 02️⃣ 使用方法
-
-1. 下载 `.module` 文件
-2. 在 Shadowrocket 中导入配置
-3. 添加 MITM 规则与脚本地址
+1. Tải file `.module`
+2. Mở Shadowrocket, chọn **Modules → Import**
+3. Thêm hostname vào mục **MITM**
+4. Bật **Script** và dán link script
 
 ---
 
-## 📜 模块内容预览
+## 🧾 Nội dung file `soundcloud.module`
 
 ```ini
 #!name=SoundCloudGo+
