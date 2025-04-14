@@ -11,10 +11,7 @@ Nếu muốn chia sẻ, vui lòng ghi rõ tác giả hoặc nguồn gốc.
 Kho này cung cấp file cấu hình để **mở khóa SoundCloud Go+** dành cho ứng dụng **Shadowrocket** trên iOS.
 
 ---
-> 💡 **Important**  
-> Since the GitHub API only allows 5k requests...  
-> `https://github-readme-stats.vercel.app/api`  
-> You can prevent this from happening by...
+
 ## 📌 Thông tin chi tiết
 
 - Hỗ trợ: Shadowrocket 
