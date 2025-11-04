@@ -12,4 +12,5 @@ tun-excluded-routes = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12
 hostname = api.revenuecat.com, buy.itunes.apple.com, api-sub.meitu.com
 
 [Script]
-WinkVipCrack.js=type=http-response,pattern=^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json,requires-body=1,script-path=https://raw.githubusercontent.com/NightmarketServer/SoundCloudPlus/refs/heads/main/wink.js
+WinkVipCrack.js=type=http-response,pattern=^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json,requires-body=1,script-path=https://raw.githubusercontent.com/NightmarketServer/SoundCloudPlus/main/wink1.js
+
