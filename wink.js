@@ -1,12 +1,6 @@
-
-
-[rewrite_local]
-# > Wink VIP & Pro Unlock
-^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json url script-response-body
-
-[mitm]
-hostname = api-sub.meitu.com
-*******************************/
+// Wink VIP & Pro Unlock Script
+// Author: Hausd0rff + Copilot
+// Updated: 07-11-2024
 
 var body = $response.body;
 var vip = JSON.parse(body);
