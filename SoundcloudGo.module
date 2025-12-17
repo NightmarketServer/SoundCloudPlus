@@ -1,0 +1,12 @@
+#!name=SoundCloud Go+ - Nightmarket
+#!desc=Unlock SoundCloud Go+ | Script by Marol | Module by Nightmarket
+#!author=Nightmarket
+#!discord=https://discord.gg/juY9tw5AJY
+
+[Script]
+# SoundCloud Go+
+#hostname = api-mobile.soundcloud.com
+SoundCloudGoPlus = type=http-response,pattern=^https:\/\/api-mobile\.soundcloud\.com\/configuration\/ios$,requires-body=1,script-path=https://raw.githubusercontent.com/NightmarketServer/SoundCloudPlus/refs/heads/main/sc.js
+
+[MITM]
+hostname = %APPEND% api-mobile.soundcloud.com
